@@ -4,3 +4,37 @@
   gap: 1rem;
   font-size: 1.3rem;
 }
+.logout{
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.mobileNavLinks, .mobile_btn{
+  display: none;
+}
+
+
+@media(max-width: 768px){
+  .nav_links_item{
+    display: none; 
+  }
+  .mobile_btn{
+    display: block;
+  }
+
+  .mobileNavLinks{
+    background-color: var(--bg);
+    position: absolute;
+    top: 10rem;
+    right: 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    height: calc(100vh - 100px);
+    justify-content: center;
+    background-color: red;
+  
+  }
+}

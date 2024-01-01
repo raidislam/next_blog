@@ -37,3 +37,42 @@ a {
   flex-direction: column;
   justify-content: space-between;
 }
+
+
+
+@media (max-width:153.6rem){
+  .container{
+    width: 136.6rem;
+  }
+}
+
+@media (max-width:136.6rem){
+  .container{
+    width: 128rem;
+  }
+}
+
+@media (max-width:128rem){
+  .container{
+    width: 102.4rem;
+    padding: 0 2rem;
+  } 
+}
+
+@media (max-width:102.4rem){
+  .container {
+      width: 76.8rem;
+  };
+}
+
+@media (max-width:76.8rem){
+  .container{
+    width: 64rem;
+  }
+}
+
+@media (max-width:64rem){
+  .container{
+    width: 48rem;
+  }
+}
